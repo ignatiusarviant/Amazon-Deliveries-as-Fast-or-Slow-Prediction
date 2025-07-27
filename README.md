@@ -8,7 +8,7 @@ This project predicts if an electronic delivery using a van in a metropolitan ar
 - It calculates the geodesic distance between the store and the delivery location.
 - The target variable is `fast_or_not`, which is 0 for faster than the median delivery time, and 1 for slower.
 - The model used is a Random Forest Classifier.
-- The ROC curve is visualized with performance metrics like accuracy, F1 score, recall, and AUC.
+- The ROC curve is visualised with performance metrics like accuracy, F1 score, recall, and AUC.
 
 ## Folder Structure
 
@@ -33,6 +33,7 @@ You can install the required libraries by running:
 
 ```bash
 pip install pandas matplotlib seaborn scikit-learn geopy
+```
 
 ### 2. Preprocess the Data
 
