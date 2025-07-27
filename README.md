@@ -1,6 +1,6 @@
 # Amazon Delivery Time Prediction
 
-This project predicts if an electronic delivery using a van in a metropolitan area is fast or not. We use machine learning to make this prediction based on weather, traffic, distance, and other delivery-related information.
+This project predicts whether an electronic delivery using a van in a metropolitan area is fast or not. We utilise machine learning to make this prediction, based on weather, traffic, distance, and other delivery-related factors.
 
 ## Overview
 
@@ -45,7 +45,7 @@ This will read amazon_delivery.csv, clean and transform the data, and export it 
 
 **python delivery_time_ml.py**
 
-This will train the Random Forest model and show the ROC curve with evaluation metrics displayed on the plot.
+This will train the Random Forest model and display the ROC curve, along with evaluation metrics, on the plot.
 
 ### 4. Evaluation Metrics
 - F1 Score
@@ -58,4 +58,9 @@ This will train the Random Forest model and show the ROC curve with evaluation m
 
 - Only rows with Vehicle = van, Category = Electronics, and Area = Metropolitian are used.
 - Rows with missing or zero coordinates are removed.
-- The label fast_or_not is 0 if delivery time is below the median, and 1 otherwise.
+- The label fast_or_not is zero if delivery time is below the median, and one otherwise.
+
+## About This Project
+
+This project was created as part of my machine learning portfolio, focusing on logistic optimisation and classification. 
+It demonstrates my skills in data cleaning, geospatial feature engineering, and model evaluation using a Random Forest Classifier.
