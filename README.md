@@ -42,13 +42,13 @@ pip install pandas matplotlib seaborn scikit-learn geopy
 
 ### 2. Preprocess the Data
 ---
-**python data_processing.py**
+`python data_processing.py`
 
 This will read amazon_delivery.csv, clean and transform the data, and export it as Data Training & Test.csv.
 
 ### 3. Preprocess the Data
 ---
-**python delivery_time_ml.py**
+`python delivery_time_ml.py`
 
 This will train the Random Forest model and display the ROC curve, along with evaluation metrics, on the plot.
 
