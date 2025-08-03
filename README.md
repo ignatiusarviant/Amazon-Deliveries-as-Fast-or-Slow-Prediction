@@ -1,4 +1,4 @@
-# Amazon Delivery Time Prediction
+# Classifying Risk of Amazon Delivery Delays Using Random Forest 
 
 This project predicts whether an electronic delivery using a van in a metropolitan area is fast or not. We utilise machine learning to make this prediction, based on weather, traffic, distance, and other delivery-related factors.
 
